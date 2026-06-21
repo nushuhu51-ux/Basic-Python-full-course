@@ -31,10 +31,10 @@ print(f"you ran {distance} km")
 # Boolean
 is_student = False
 for_sale = True
+is_online = True
 
-if for_sale:
-    print("That item is for sale")
-else:  
-    print("That item is not for sale")
-    
+if is_online:
+    print("You are currently online")
+else:
+    print("You are not online")
 
