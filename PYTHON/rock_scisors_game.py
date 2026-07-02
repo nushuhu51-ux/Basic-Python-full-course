@@ -31,3 +31,4 @@ while running:
     play_again = input("play again? (y/n)")
     if not play_again == "y":
         running = False
+    print("Thanks for playing")
