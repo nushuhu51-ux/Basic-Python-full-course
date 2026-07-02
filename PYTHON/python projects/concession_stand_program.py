@@ -19,7 +19,7 @@ for key, value in menu.items():
 print("----------------------------")
 
 while True:
-    food = input("Select an item (q to quit): ")
+    food = input("Select an item (q to quit): "),
     if food == "q":
         break
     elif menu.get(food) is not None:
